@@ -7,13 +7,13 @@ const r1=readline.createInterface({
 
 let player='X';
 
-// let crisscross=[
-//     ' ',' ',' ',
-//     ' ',' ',' ',
-//     ' ',' ',' '
-// ];
+let crisscross=[
+    ' ',' ',' ',
+    ' ',' ',' ',
+    ' ',' ',' '
+];
 
-let a= new Array(9).fill(' ');
+//let a= new Array(9).fill(' ');
 
 const defaultPlayer=()=>{
 r1.question("Default player is X, Do you want to change it ,y or n",function(defaultOrChoose){
